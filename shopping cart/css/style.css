@@ -1,0 +1,137 @@
+/* body */
+#chariot {
+  color: black;
+}
+body {
+  text-align: center;
+  background-color: #f8f9fa;
+}
+img {
+  width: 150px;
+  border-radius: 5px;
+}
+/* .far {
+  font-size: 30px;
+} */
+
+/* .far:hover {
+  color: red;
+  cursor: pointer;
+} */
+.fas {
+  color: black;
+  font-size: 30px;
+}
+
+.fas:hover {
+  cursor: pointer;
+}
+.redding {
+  color: red;
+  /* font-size: 30px; */
+}
+input {
+  appearance: none;
+  width: 40px;
+}
+
+.title {
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+/* cart itself  */
+.shopping-cart {
+  width: 1000px;
+  margin: 20px auto;
+  background-color: white;
+}
+.cart-head {
+  display: flex;
+  max-width: 1000px;
+  margin: 10px 0;
+  border-bottom: black solid 2px;
+  padding: 10px 0;
+}
+
+/* items */
+
+.item {
+  display: flex;
+}
+
+.item-display {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.item-prop {
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  align-content: center;
+  margin: auto 10px;
+  text-align: start;
+}
+.heart-remove {
+  align-self: center;
+  padding: 10px;
+  width: 250px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+.col-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.item-heart-remove {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* quantity */
+.adjust-quantity {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input {
+  text-align: center;
+  border-radius: 5px;
+  width: auto;
+}
+.item-quantity {
+  max-width: 30px;
+}
+/* total */
+
+.price {
+  max-width: 1000px;
+  margin: 25px auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.price-total {
+  margin-right: 30px;
+  font-size: 20px;
+  border-top: black solid 1px;
+  padding-top: 7px;
+}
+input {
+  margin: 0 3px;
+  width: 50px;
+}
+
+/* purchase button */
+
+.purchase {
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin: 25px auto;
+}
